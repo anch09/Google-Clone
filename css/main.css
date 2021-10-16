@@ -1,0 +1,101 @@
+main {
+    height: 550px;
+}
+
+.google-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+.logo-central{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.google-logo {
+    height: 92;
+    width: 272;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.input__total {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: .1rem solid rgba(0,0,0, 0.1);
+    border-radius: 3rem;
+}
+
+.input__total:active {
+    box-shadow: 1rem rgba(0,0,0, 0.1);
+}
+
+.input__lupa {
+    height: 20px;
+    opacity: .6;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.1rem;
+}
+
+.input__texto {
+    border: none;
+    outline: none;
+    height: 15px;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.input__microfono {
+    height: 24px;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.25rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones__boton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(151, 151, 151, 0.06);
+    border: none;
+    border-radius: 0.5rem;
+    margin: .5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.botones__boton:hover {
+    border: .1rem solid rgba(202, 202, 202, 0.6);
+    box-shadow: .1rem rgba(202, 202, 202, 0.6);
+}
+
+.botones__boton:active {
+    border: .1rem solid rgba(0, 132, 255, 0.6);
+}
+
+.texto-ofrecido {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.texto-ofrecido span a {
+    text-decoration: none;
+}
+
+.texto-ofrecido span a:active {
+    background-color: rgba(7, 181, 224, 0.6);
+}
