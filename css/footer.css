@@ -14,7 +14,6 @@ footer {
     padding: 1rem;
     background-color: rgba(242, 242, 242);
     border-bottom: 0.1rem solid rgba(202, 202, 202, 0.8);
-    /* padding-top: 15px; */
 }
 
 .footer-pais__texto {
@@ -47,7 +46,3 @@ footer {
     list-style: none;
     padding-left: 2rem;
 }
-
-/* .boton-footer {
-    
-} */

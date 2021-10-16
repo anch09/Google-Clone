@@ -36,8 +36,8 @@ main {
     border-radius: 3rem;
 }
 
-.input__total:active {
-    box-shadow: 1rem rgba(0,0,0, 0.1);
+.input__total:hover {
+    box-shadow: 0px 0px 5px 0px rgb(219, 219, 220);
 }
 
 .input__lupa {

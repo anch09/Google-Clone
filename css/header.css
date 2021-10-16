@@ -8,6 +8,11 @@ html {
     font-size: 62.5%;
 }
 
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header {
     height: 50px;
     width: 100vw;
@@ -59,6 +64,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nav-bar__item-lista-menu a {
+    height: 16px;
 }
 
 .nav-bar__item-lista-menu:hover {
