@@ -1,5 +1,6 @@
 main {
     height: 550px;
+    width: 100vw;
 }
 
 .google-search {
@@ -90,6 +91,7 @@ main {
     display: flex;
     justify-content: center;
     margin: 2rem;
+    align-content: stretch;
 }
 
 .texto-ofrecido span a {
