@@ -1,54 +1,53 @@
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    width: 100vw;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-pais {
-    background-color: rgba(242, 242, 242);
-    padding-left: 3rem;
+    display: block;
     height: 50px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(242, 242, 242);
     border-bottom: 0.1rem solid rgba(202, 202, 202, 0.8);
+    /* padding-top: 15px; */
 }
 
 .footer-pais__texto {
-    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 6px;
     font-size: 1.6rem;
     color: rgb(122, 117, 121);
-    margin: .2rem;
 }
 
 .about {
+    height: 50px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(242, 242, 242);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    height: 50px;
-    color: rgb(122, 117, 121)
-    
+    color: rgb(122, 117, 121);
 }
 
-.about__lista-derecha {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+.about__lista-derecha li {
+    display: inline-block;
     padding-right: 2rem;
-    flex-wrap: wrap;
-}
-
-.about__lista-izquierda {
-    display: flex;
-    flex-direction: row;
     list-style: none;
-    padding-left: .5rem;
-    margin: 1rem;
 }
 
-.boton-footer {
-    margin: 2rem;
+
+.about__lista-izquierda li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 2rem;
 }
+
+/* .boton-footer {
+    
+} */

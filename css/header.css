@@ -10,13 +10,13 @@ html {
 
 header {
     height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     width: 100vw;
 }
 
 .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     margin: .5rem;
 }
 
